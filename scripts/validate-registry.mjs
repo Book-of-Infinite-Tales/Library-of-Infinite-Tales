@@ -18,7 +18,7 @@ const INDEX_SCHEMA_VERSION = 'book-of-infinite-tales/index/v1';
 
 function rawUrl(owner, repo, ref, path, file) {
   const dir = path ? `${path.replace(/\/$/, '')}/` : '';
-  return `${RAW_BASE}/${owner}/${repo}/${ref ?? 'HEAD'}/${dir}${file}`;
+  return `${RAW_BASE}/${owner}/${repo}/${ref ?? 'main'}/${dir}${file}`;
 }
 
 async function validateEntry(entry, index) {
