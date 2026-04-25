@@ -1,0 +1,12 @@
+{
+  "books": [
+    {
+      "repo": "RobMcA/Book-of-Infinite-Tales",
+      "path": "examples/sample-book",
+      "title": "The Hermit's Clearing (Sample)",
+      "author": "Book of Infinite Tales",
+      "description": "A sample book demonstrating all schema features.",
+      "tags": ["sample"]
+    }
+  ]
+}

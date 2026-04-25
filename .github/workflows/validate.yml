@@ -1,0 +1,24 @@
+name: Validate registry
+
+on:
+  pull_request:
+    paths:
+      - registry.json
+  push:
+    branches:
+      - main
+    paths:
+      - registry.json
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Validate registry
+        run: node scripts/validate-registry.mjs
