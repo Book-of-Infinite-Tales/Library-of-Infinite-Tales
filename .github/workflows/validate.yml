@@ -4,11 +4,13 @@ on:
   pull_request:
     paths:
       - registry.json
+      - scripts/validate-registry.mjs
   push:
     branches:
       - main
     paths:
       - registry.json
+      - scripts/validate-registry.mjs
 
 jobs:
   validate:
