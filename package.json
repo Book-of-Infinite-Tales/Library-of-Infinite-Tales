@@ -1,0 +1,11 @@
+{
+  "name": "library-of-infinite-tales",
+  "description": "Community registry of books for the Book of Infinite Tales reader app",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-registry.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
