@@ -7,6 +7,13 @@
       "author": "Book of Infinite Tales",
       "description": "A sample book demonstrating all schema features.",
       "tags": ["sample"]
+    },
+    {
+      "repo": "RobMcA/book-of-tales-example",
+      "title": "Example Book of Tales Collection",
+      "author": "Rob McArthur",
+      "description": "AI-generated Books of Tales for Tales of the Arthurian Knights, inspired by Le Morte d'Arthur by Sir Thomas Malory.",
+      "tags": ["arthurian", "ai-generated", "example"]
     }
   ]
 }
