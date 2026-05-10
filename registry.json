@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "repo": "RobMcA/Book-of-Infinite-Tales",
+      "repo": "Book-of-Infinite-Tales/Book-of-Infinite-Tales",
       "path": "examples/sample-book",
       "title": "The Hermit's Clearing (Sample)",
       "author": "Book of Infinite Tales",
@@ -9,7 +9,7 @@
       "tags": ["sample"]
     },
     {
-      "repo": "RobMcA/book-of-tales-example",
+      "repo": "Book-of-Infinite-Tales/book-of-tales-example",
       "title": "Example Book of Tales Collection",
       "author": "Rob McArthur",
       "description": "AI-generated Books of Tales for Tales of the Arthurian Knights, inspired by Le Morte d'Arthur by Sir Thomas Malory.",
