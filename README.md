@@ -1,16 +1,23 @@
 # Library of Infinite Tales
 
-A curated community registry of books for the [Book of Infinite Tales](https://github.com/RobMcA/Book-of-Infinite-Tales) reader app.
+The **Library of Infinite Tales** is the community book registry for the [Book of Infinite Tales](https://github.com/RobMcA/Book-of-Infinite-Tales) ecosystem — a platform for creating and reading branching, choose-your-own-adventure style books.
 
-## What is this?
+This repo holds `registry.json`, the list of community-submitted books that appears in the reader app's **Community Books** section. Anyone can publish a book and submit it here via pull request.
 
-The Book of Infinite Tales reader app fetches `registry.json` from this repo to populate its **Community Books** section. Each entry points to a public GitHub repo containing a fan-created book (or collection of books) built with the Tales of the Arthurian Knights supplement format.
+## The ecosystem
+
+| Repo | What it is |
+|---|---|
+| [RobMcA/Book-of-Infinite-Tales](https://github.com/RobMcA/Book-of-Infinite-Tales) | The reader app — browse and read books from the community registry |
+| [RobMcA/Book-of-Tales-Template](https://github.com/RobMcA/Book-of-Tales-Template) | Starter kit for creating your own book or book collection |
+| [RobMcA/book-of-tales-example](https://github.com/RobMcA/book-of-tales-example) | Example book collection showing the format in action |
+| [RobMcA/Library-of-Infinite-Tales](https://github.com/RobMcA/Library-of-Infinite-Tales) | This repo — the community registry |
 
 ## Adding your book
 
 Open a pull request that adds one entry to `registry.json`. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full submission guide — including the required fields, how to test your book in the app before submitting, and what CI checks must pass.
 
-If you're starting from scratch, use the [Book-of-Tales-Template](https://github.com/RobMcA/Book-of-Tales-Template) to scaffold a new book.
+If you're starting from scratch, use the [Book-of-Tales-Template](https://github.com/RobMcA/Book-of-Tales-Template) to scaffold a new book, or browse [book-of-tales-example](https://github.com/RobMcA/book-of-tales-example) to see how a finished book collection is structured.
 
 ## CI validation
 
@@ -27,10 +34,3 @@ To run the validator locally:
 ```
 npm run validate
 ```
-
-## Related repos
-
-| Repo | Purpose |
-|---|---|
-| [RobMcA/Book-of-Infinite-Tales](https://github.com/RobMcA/Book-of-Infinite-Tales) | The reader app |
-| [RobMcA/Book-of-Tales-Template](https://github.com/RobMcA/Book-of-Tales-Template) | Template for creating a new book |
